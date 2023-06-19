@@ -11,12 +11,12 @@
   )
 
   (lib_symbols
-    (symbol "Connector:Barrel_Jack_MountingPin" (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "Connector:Barrel_Jack_Switch" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.334 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Barrel_Jack_MountingPin" (at 1.27 -6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Value" "Barrel_Jack_Switch" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 1.27 -1.016 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -27,13 +27,13 @@
       (property "ki_keywords" "DC power barrel jack connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "DC Barrel Jack with a mounting pin" (at 0 0 0)
+      (property "ki_description" "DC Barrel Jack with an internal switch" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "BarrelJack*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Barrel_Jack_MountingPin_0_1"
+      (symbol "Barrel_Jack_Switch_0_1"
         (rectangle (start -5.08 3.81) (end 5.08 -3.81)
           (stroke (width 0.254) (type default))
           (fill (type background))
@@ -48,8 +48,26 @@
         )
         (polyline
           (pts
+            (xy 1.27 -2.286)
+            (xy 1.905 -1.651)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
             (xy 5.08 2.54)
             (xy 3.81 2.54)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 0)
+            (xy 1.27 0)
+            (xy 1.27 -2.286)
+            (xy 0.635 -1.651)
           )
           (stroke (width 0.254) (type default))
           (fill (type none))
@@ -71,18 +89,7 @@
           (fill (type outline))
         )
       )
-      (symbol "Barrel_Jack_MountingPin_1_1"
-        (polyline
-          (pts
-            (xy -1.016 -4.572)
-            (xy 1.016 -4.572)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (text "Mounting" (at 0 -4.191 0)
-          (effects (font (size 0.381 0.381)))
-        )
+      (symbol "Barrel_Jack_Switch_1_1"
         (pin passive line (at 7.62 2.54 180) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -91,9 +98,9 @@
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -7.62 90) (length 3.048)
-          (name "MountPin" (effects (font (size 1.27 1.27))))
-          (number "MP" (effects (font (size 1.27 1.27))))
+        (pin passive line (at 7.62 0 180) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -538,6 +545,7 @@
 
   (no_connect (at 234.95 72.39) (uuid 031a4161-4c2f-4632-a069-ecc72f0de0c2))
   (no_connect (at 234.95 82.55) (uuid 20aef276-c880-44cf-abf6-26134cd5af8a))
+  (no_connect (at 36.83 76.2) (uuid 2a49fb2d-54e2-4e42-a534-729e307fe901))
   (no_connect (at 234.95 64.77) (uuid 310d1920-216a-42f9-8d34-aca001ba95f0))
   (no_connect (at 234.95 90.17) (uuid 382f9495-876f-4fcf-b579-c14d2aa711cb))
   (no_connect (at 234.95 69.85) (uuid 3df7eb91-5d28-458d-a067-9a262b2437e7))
@@ -826,31 +834,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 29.21 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 53d936b7-7ccc-4bac-b556-4adc5ddda397)
-    (property "Reference" "#PWR0102" (at 29.21 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 29.21 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 29.21 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 29.21 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 56866f8c-ddca-4fa5-a87f-8e5aa04162c2))
-    (instances
-      (project "wled-esp32-control-board"
-        (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a"
-          (reference "#PWR0102") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 186.69 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ef6d6bb-e257-4272-9e6d-7a49202541aa)
@@ -1069,7 +1052,7 @@
     )
   )
 
-  (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 29.21 76.2 0) (unit 1)
+  (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 29.21 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2e0b21d-d17b-43ff-95df-ad317ef2de08)
     (property "Reference" "J101" (at 29.21 69.85 0)
@@ -1078,15 +1061,24 @@
     (property "Value" "Barrel_Jack_MountingPin" (at 29.21 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" (at 30.48 77.216 0)
+    (property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal" (at 30.48 77.216 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 30.48 77.216 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C381115" (at 29.21 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser" "" (at 29.21 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DigiKey" "" (at 29.21 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1489663f-439f-4359-a2ec-8120a438cdc2))
     (pin "2" (uuid cb354a78-7cc7-4210-867b-99a1cd08a2de))
-    (pin "MP" (uuid f4a60e62-53b1-4c71-b00b-20c637fb4c5a))
+    (pin "3" (uuid e6fb62a8-c129-4f7f-9743-1c3c85e292ed))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a"
