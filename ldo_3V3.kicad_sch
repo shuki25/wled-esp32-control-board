@@ -102,7 +102,7 @@
           (name "CE" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 12.7 -2.54 180) (length 5.08) hide
+        (pin no_connect line (at 7.62 -2.54 180) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
@@ -125,7 +125,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
@@ -165,7 +165,7 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "flag power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
@@ -199,9 +199,6 @@
   )
   (junction (at 49.53 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 338a3c39-510d-4846-a326-d850a88c6e04)
-  )
-  (junction (at 76.2 49.53) (diameter 0) (color 0 0 0 0)
-    (uuid 77ec69e7-71b8-4b06-a44b-11756ce75650)
   )
   (junction (at 45.72 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 8a728d53-1ca0-4d36-9956-e2ee1c9f9e7c)
@@ -245,10 +242,6 @@
     (stroke (width 0) (type default))
     (uuid 54843c23-1fe6-4764-8cf3-b7b29b39c2d0)
   )
-  (wire (pts (xy 76.2 49.53) (xy 80.01 49.53))
-    (stroke (width 0) (type default))
-    (uuid 593a567b-5629-418d-91ec-595c60167e90)
-  )
   (polyline (pts (xy 34.29 34.29) (xy 34.29 80.01))
     (stroke (width 0) (type default))
     (uuid 800cab1b-cbb1-4630-80a3-83b58eb48ad4)
@@ -283,16 +276,12 @@
     (stroke (width 0) (type default))
     (uuid db04cb9d-f0d7-495a-913e-dc285c5ab03a)
   )
-  (wire (pts (xy 76.2 49.53) (xy 76.2 53.34))
-    (stroke (width 0) (type default))
-    (uuid e2af4cff-6a32-481e-a733-77ab53e60491)
-  )
   (polyline (pts (xy 34.29 34.29) (xy 87.63 34.29))
     (stroke (width 0) (type default))
     (uuid f56e37f7-6d1f-401d-a5f7-e1ab522aadf5)
   )
 
-  (wire (pts (xy 76.2 44.45) (xy 76.2 49.53))
+  (wire (pts (xy 76.2 44.45) (xy 76.2 53.34))
     (stroke (width 0) (type default))
     (uuid fb89ed19-7e91-413f-9b28-bd145025802a)
   )
@@ -317,36 +306,6 @@
     )
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 80.01 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2133b269-ea11-49c9-baad-58f33138b60e)
-    (property "Reference" "#FLG0302" (at 80.01 47.625 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 80.01 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 80.01 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 80.01 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 80f460b4-3d3d-4dc6-bd75-16a8b2543ded))
-    (instances
-      (project "wled-esp32-control-board"
-        (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/d1f69b69-3231-4944-97e3-fdd35c90f911"
-          (reference "#FLG0302") (unit 1)
-        )
-      )
-      (project "iot_playground"
-        (path "/da21b043-c1be-47f1-86d6-d54e7594fd6d/b21a4c83-8caf-4c90-bfdc-6aae977d35b1"
-          (reference "#FLG0402") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:PWR_FLAG") (at 43.18 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 366ca676-9836-4871-8098-e91b88fc298e)
@@ -362,7 +321,7 @@
     (property "Datasheet" "~" (at 43.18 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b162820a-0f28-4554-96f4-d83fc7b0f975))
+    (pin "1" (uuid 58e434f5-06ba-4854-a9d5-19974d2adc2a))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/d1f69b69-3231-4944-97e3-fdd35c90f911"
@@ -392,7 +351,7 @@
     (property "Datasheet" "" (at 62.23 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e6009e2-fe17-45ce-bcac-a8240d36efba))
+    (pin "1" (uuid 4ba9f43a-d1ea-45d5-b130-67c233244ad3))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/d1f69b69-3231-4944-97e3-fdd35c90f911"
@@ -419,17 +378,17 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 62.23 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810010324_Torex-Semicon-XC6220B331MR-G_C86534.pdf" (at 81.28 81.28 0)
+    (property "Datasheet" "https://www.torexsemi.com/file/xc6220/XC6220.pdf" (at 81.28 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C86534" (at 62.23 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eafe4d6b-a119-45f6-9fca-4d397ea24e12))
-    (pin "2" (uuid 07508ca6-0a68-43e1-a6bb-2b0cbdef12be))
-    (pin "3" (uuid a1fdc114-20d5-4414-9437-97269d467496))
-    (pin "4" (uuid d3f0301a-4707-4918-bdf5-522ea2765403))
-    (pin "5" (uuid 205b661e-761d-4db0-910d-e4db4e05eaf5))
+    (pin "1" (uuid a00eb54a-43e9-4403-9eba-06c0f45d2999))
+    (pin "2" (uuid b015b8b1-a234-4ca4-801d-3bd662fa43ee))
+    (pin "3" (uuid d73286b5-06f0-4e1c-8b79-ecda5eb9a383))
+    (pin "4" (uuid 549d27d2-fc66-459d-b73d-3541db4de192))
+    (pin "5" (uuid 14c860d3-20e4-4e02-acf6-1912cf0c4306))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/d1f69b69-3231-4944-97e3-fdd35c90f911"
@@ -462,8 +421,8 @@
     (property "LCSC" "C59461" (at 45.72 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fdf314b0-6be3-44d0-9bfa-b49846eb59b0))
-    (pin "2" (uuid c4698530-8cd5-40c8-b378-2715962891e0))
+    (pin "1" (uuid 18ebc0e9-b08c-4860-b7ea-6a2969c62a57))
+    (pin "2" (uuid 0e4cc4a0-d679-43f2-a8ec-21e39b6ebd9e))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/d1f69b69-3231-4944-97e3-fdd35c90f911"
@@ -496,8 +455,8 @@
     (property "LCSC" "C19666" (at 76.2 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4530e88d-a813-49be-9227-25aec6247bcd))
-    (pin "2" (uuid 8d2ba424-6209-475d-bada-d3a4afc55f50))
+    (pin "1" (uuid 6e5f463f-d5dd-4820-9f89-f69c66e1ede6))
+    (pin "2" (uuid 5ee397e0-990a-4bda-8183-5b84b49efb9d))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/d1f69b69-3231-4944-97e3-fdd35c90f911"

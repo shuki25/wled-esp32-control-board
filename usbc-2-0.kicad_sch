@@ -697,6 +697,58 @@
         )
       )
     )
+    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VCC" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VCC_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VCC_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VCC" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 109.22 46.99) (diameter 0) (color 0 0 0 0)
@@ -770,6 +822,10 @@
   (wire (pts (xy 69.85 38.1) (xy 77.47 38.1))
     (stroke (width 0) (type default))
     (uuid 6b025224-75a9-4f71-be5d-b14e2cf79759)
+  )
+  (wire (pts (xy 77.47 33.02) (xy 77.47 38.1))
+    (stroke (width 0) (type default))
+    (uuid 731bddf7-5abe-4031-9d1c-d3d70cf574e7)
   )
   (wire (pts (xy 102.87 38.1) (xy 106.68 38.1))
     (stroke (width 0) (type default))
@@ -868,7 +924,7 @@
   (symbol (lib_id "power:GND") (at 90.17 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06b777ff-2292-45dd-b998-6f2688e3ded9)
-    (property "Reference" "#PWR0202" (at 90.17 58.42 0)
+    (property "Reference" "#PWR0203" (at 90.17 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 57.15 0)
@@ -880,11 +936,11 @@
     (property "Datasheet" "" (at 90.17 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e0652bd0-63d6-4393-9d0d-7a978bc4723d))
+    (pin "1" (uuid e8333756-eba2-4598-900e-3e98d407f332))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
-          (reference "#PWR0202") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
       (project "arudino-clone"
@@ -916,10 +972,10 @@
     (property "LCSC" "C7074" (at 74.93 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e4367ef1-a39f-4b95-a532-aab68c987be1))
-    (pin "2" (uuid 2b8fe58f-2760-42f2-9acd-1731a5eda9cf))
-    (pin "3" (uuid 7a9cb508-56e1-45ac-a46e-8ca1dfcda719))
-    (pin "4" (uuid b04bdadc-b202-4685-a8dd-57947d8ebed1))
+    (pin "1" (uuid 546a9cbb-3477-480d-ad34-94234b080dc2))
+    (pin "2" (uuid 0a636637-236b-401c-9790-37ac4a59b5cb))
+    (pin "3" (uuid 4aaa3c54-986e-4ccd-92f0-05d109f4d54f))
+    (pin "4" (uuid 364212b8-9446-4e97-8385-d59e2050271a))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
@@ -940,7 +996,7 @@
   (symbol (lib_id "power:GND") (at 43.18 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18abe1e1-f430-4fa7-b2d1-24251be18e45)
-    (property "Reference" "#PWR0205" (at 43.18 82.55 0)
+    (property "Reference" "#PWR0206" (at 43.18 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 81.28 0)
@@ -952,11 +1008,11 @@
     (property "Datasheet" "" (at 43.18 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b3d7889-1457-44ba-b101-a5991e2ce1f2))
+    (pin "1" (uuid e6c47db9-ec8b-45d1-8f7f-c1ce450b9f03))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
-          (reference "#PWR0205") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
       (project "arudino-clone"
@@ -979,7 +1035,7 @@
     (property "Value" "USB_C_Receptacle_USB2.0" (at 50.8 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "User Custom Footprint:USB_C_Receptable_918-418K2023S40001" (at 54.61 53.34 0)
+    (property "Footprint" "User_Footprint:USB_C_Receptable_918-418K2023S40001" (at 54.61 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 54.61 53.34 0)
@@ -988,23 +1044,23 @@
     (property "LCSC" "C2982555" (at 50.8 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A1" (uuid 4d8f8fed-e49d-42ba-8cc5-7bd8d5efcbd0))
-    (pin "A12" (uuid c9e98125-c37b-4a7a-9d7a-63fd20a0ba42))
-    (pin "A4" (uuid a3de3378-8644-4f44-bdd1-558e8292a2f8))
-    (pin "A5" (uuid 8272d1ce-535d-45ab-9dc7-7d6163c71182))
-    (pin "A6" (uuid 4b8c4aed-6ffd-46f0-826f-888d427d8195))
-    (pin "A7" (uuid 21efd734-6ed4-4881-af1e-82b0a68e9868))
-    (pin "A8" (uuid 514269ad-8d95-47d5-a67e-b0dd40afea8f))
-    (pin "A9" (uuid f8633e99-e39a-42f4-b617-89ebae435a38))
-    (pin "B1" (uuid fe4ec31e-6db5-40b0-8073-8476ecd7e5f2))
-    (pin "B12" (uuid 02d2b7ea-c0bd-4779-bf7c-2e86bbb1036a))
-    (pin "B4" (uuid 3bb98851-a01d-4cfd-af74-bbdd8b59991c))
-    (pin "B5" (uuid d78d3c9e-3570-44c6-aeb6-e1d467bfa940))
-    (pin "B6" (uuid d2815122-bb5c-4040-bf22-0a4d440b16b2))
-    (pin "B7" (uuid 9a9cf1ef-3be1-442f-87a3-82de64815b19))
-    (pin "B8" (uuid fa29fbfd-2ca8-450b-aee9-68dd3e3187ce))
-    (pin "B9" (uuid 76bb06b1-1d27-4363-b605-e445fad51467))
-    (pin "S1" (uuid ce3f6f70-d812-4e4b-903f-d0486ec545cc))
+    (pin "A1" (uuid 56bee523-0986-437e-ba1a-64cf67c462df))
+    (pin "A12" (uuid 9726a882-a5b3-41d8-bb89-e13aee743940))
+    (pin "A4" (uuid 886a9a8c-7935-452f-8714-bd3e0b02f351))
+    (pin "A5" (uuid a30725fa-65d5-430b-82b0-d5ed9c86e41e))
+    (pin "A6" (uuid 5da1fcf7-5b0b-4844-8fb9-db65f288e46a))
+    (pin "A7" (uuid c67d369f-2ade-477d-b35d-6d4d48ade399))
+    (pin "A8" (uuid 1a20705f-c097-47b8-97ee-6c1d2aaf84f9))
+    (pin "A9" (uuid e21cb6de-a18f-4aa5-b4ff-790bf6c69e58))
+    (pin "B1" (uuid 7d76500d-d41e-47b2-85e8-99ca9c6000f3))
+    (pin "B12" (uuid 03724c34-f59f-4bda-8bf3-d503806dd59e))
+    (pin "B4" (uuid 61d3dd8a-7897-4f66-a521-56eaa3cee467))
+    (pin "B5" (uuid 7eb97c10-c3f9-4a02-8f9d-6cf3d1369fb2))
+    (pin "B6" (uuid 89665748-d4bc-4a41-a5dd-7aecbf1ad824))
+    (pin "B7" (uuid 1c7c0e64-a614-43ae-85b3-d36541625a8d))
+    (pin "B8" (uuid 80365880-08de-42b8-8d3a-fb809fb6f949))
+    (pin "B9" (uuid f45c2c07-2fa1-48ce-9cfa-e77d356c2c9f))
+    (pin "S1" (uuid 1cdc3c8e-09ef-495b-b96d-d964de9c8d6a))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
@@ -1040,8 +1096,8 @@
     (property "LCSC" "C14663" (at 115.57 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf7a3079-8108-4e4b-a2ae-628b50d51301))
-    (pin "2" (uuid edba7b17-ffc3-4f57-b7c9-1ca75d0b0f37))
+    (pin "1" (uuid 229cbcb6-514b-44f6-818e-d3236f791fa0))
+    (pin "2" (uuid e01eaff1-0932-4923-8228-e7d8f86b31b9))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
@@ -1077,8 +1133,8 @@
     (property "LCSC" "C74487" (at 109.22 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 161721c4-1435-4353-8f4e-2c6e7fa1e552))
-    (pin "2" (uuid c2e7a69a-3207-4698-82dc-c3db4343b35f))
+    (pin "1" (uuid 9ea61413-5ac2-4b84-a2e7-8a66dcbb529d))
+    (pin "2" (uuid 3155f51b-ce7e-4ca4-bc6e-4175935e1319))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
@@ -1091,6 +1147,31 @@
         )
         (path "/7b2b1845-59f7-4bfa-9efc-3639d821cf70/42f81444-0f87-48cc-869b-f9c5fa4e11c4"
           (reference "FB201") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 77.47 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6523da75-c91f-47fa-9e24-617a90529729)
+    (property "Reference" "#PWR0201" (at 77.47 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 77.47 27.94 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 77.47 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 77.47 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 99174139-64c4-43bd-a22f-e688a117380f))
+    (instances
+      (project "wled-esp32-control-board"
+        (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -1114,8 +1195,8 @@
     (property "LCSC" "C23186" (at 90.17 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7447dd5d-2507-4cdc-b33e-00f6cd33d88c))
-    (pin "2" (uuid 3254e7c8-19fa-42f2-857f-289148b60e89))
+    (pin "1" (uuid e5fe4ac2-2c3e-4df1-aa3f-7b19e0c9b809))
+    (pin "2" (uuid 56422fc7-aecf-4fba-baf3-5b79d2779564))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
@@ -1148,7 +1229,7 @@
     (property "Datasheet" "~" (at 55.88 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e55594c-11c2-4fd9-a1b0-a27fb77f3db7))
+    (pin "1" (uuid 4ee96cf5-9912-41c3-bd0c-be911d29f6bf))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
@@ -1181,8 +1262,8 @@
     (property "LCSC" "C23186" (at 93.98 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 51ffc0f0-6dbd-433b-8d9b-0d82979acf48))
-    (pin "2" (uuid 63bbc626-e973-4509-b783-ae63fc94f839))
+    (pin "1" (uuid 28faab71-3b5d-40b3-b87a-5317200a0cdb))
+    (pin "2" (uuid 2a18a127-f6ea-47b7-a2f1-71f1940f51b2))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
@@ -1203,7 +1284,7 @@
   (symbol (lib_id "power:GND") (at 50.8 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98798d08-6a04-46b6-acd6-058bee4a185f)
-    (property "Reference" "#PWR0206" (at 50.8 82.55 0)
+    (property "Reference" "#PWR0207" (at 50.8 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 81.28 0)
@@ -1215,11 +1296,11 @@
     (property "Datasheet" "" (at 50.8 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e01c243-479a-4187-8860-995fe4488199))
+    (pin "1" (uuid 0ba0991a-c347-4e16-a8b2-bb242b4ac26f))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
-          (reference "#PWR0206") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
       (project "arudino-clone"
@@ -1236,7 +1317,7 @@
   (symbol (lib_id "power:GND") (at 93.98 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aca9ab29-c685-48ba-9511-65ca842cd1fb)
-    (property "Reference" "#PWR0203" (at 93.98 58.42 0)
+    (property "Reference" "#PWR0204" (at 93.98 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 57.15 0)
@@ -1248,11 +1329,11 @@
     (property "Datasheet" "" (at 93.98 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36225c0a-337b-40a0-a2ae-381a70c6efe1))
+    (pin "1" (uuid 8f566eb4-3f92-471c-965a-7fa55f54b302))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
-          (reference "#PWR0203") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
       (project "arudino-clone"
@@ -1284,8 +1365,8 @@
     (property "LCSC" "C15850" (at 102.87 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ad8701be-e432-4b3d-8e49-26276a35d805))
-    (pin "2" (uuid d775de18-3ed2-4bf1-bfd5-59012826193d))
+    (pin "1" (uuid 9a103cef-f452-4cbf-9748-b8b3ec6acf16))
+    (pin "2" (uuid 2b6fda0d-4740-4b5b-8d93-59794c70a463))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
@@ -1321,8 +1402,8 @@
     (property "LCSC" "C2757930" (at 90.17 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c361374-0513-40e4-9e25-38af8b32fbd9))
-    (pin "2" (uuid 92f66ff7-10a2-4c71-ad4d-ee027b78ce46))
+    (pin "1" (uuid f3b5864f-ceeb-4fc7-b76c-63923827c063))
+    (pin "2" (uuid 2a4da024-23b7-45a1-88cf-74fb9fce6686))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
@@ -1343,7 +1424,7 @@
   (symbol (lib_id "power:GND") (at 74.93 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cff973ed-a7df-4457-b49c-88bf377a0d30)
-    (property "Reference" "#PWR0204" (at 74.93 78.74 0)
+    (property "Reference" "#PWR0205" (at 74.93 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 77.47 0)
@@ -1355,11 +1436,11 @@
     (property "Datasheet" "" (at 74.93 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b848352d-acf2-4b5e-9067-48c265d340a0))
+    (pin "1" (uuid 83b0ba68-2ab4-4dc3-a6ed-976230081f42))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
-          (reference "#PWR0204") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
       (project "arudino-clone"
@@ -1388,7 +1469,7 @@
     (property "Datasheet" "~" (at 69.85 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d3f1852d-f69c-44c5-95c5-5c9387b53825))
+    (pin "1" (uuid 2fb2d65e-63d4-4267-bda2-a4df9a5b322e))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
@@ -1406,7 +1487,7 @@
   (symbol (lib_id "power:GND") (at 109.22 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc7c45f0-2cda-4819-9bb9-64ae34955a0f)
-    (property "Reference" "#PWR0201" (at 109.22 55.88 0)
+    (property "Reference" "#PWR0202" (at 109.22 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 54.61 0)
@@ -1418,11 +1499,11 @@
     (property "Datasheet" "" (at 109.22 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df596dd7-6ecf-4194-943c-46ea3b156e70))
+    (pin "1" (uuid 71ad11d3-d773-487e-8e41-dc39b8b47f68))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/06531422-46ec-4b81-b2a2-21a1afed1c45"
-          (reference "#PWR0201") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
       (project "arudino-clone"

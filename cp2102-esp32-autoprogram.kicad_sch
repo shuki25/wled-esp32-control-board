@@ -741,8 +741,8 @@
     (property "LCSC" "C25804" (at 132.08 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4bffa218-a858-4823-9f78-6e7e468e24c4))
-    (pin "2" (uuid 59288655-840d-425b-b050-583eb0fc481a))
+    (pin "1" (uuid 1b3caddf-f67d-4eba-aeec-d27081f5864b))
+    (pin "2" (uuid f5eb23bb-d725-45db-9514-ce04a6c4cadf))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -775,35 +775,35 @@
     (property "LCSC" "C6568" (at 66.04 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6d420b10-ad42-4ed6-87c2-ec966b0c5b54))
-    (pin "10" (uuid e7b6b2fc-09b5-49b1-a898-6890cda7ca47))
-    (pin "11" (uuid 00895d01-0552-4d8c-b17b-1b89b9d1275b))
-    (pin "12" (uuid 753d57c0-7f87-4d41-8481-3db227f8e80a))
-    (pin "13" (uuid cc2245ec-c0b4-491c-9b08-aaa834a1849b))
-    (pin "14" (uuid dfd6f7ff-9da0-4ddb-9622-6c1d83019ab9))
-    (pin "15" (uuid 06e055fd-6117-40cf-b14c-bb2d556cad83))
-    (pin "16" (uuid 754a1232-e51a-4c9e-b8e9-871c1f9f46e3))
-    (pin "17" (uuid 727eec45-7e19-4ff0-9dee-73df039a17f3))
-    (pin "18" (uuid b864a0c3-59c3-4b09-beef-a975a202caf7))
-    (pin "19" (uuid 659df650-7215-494e-95dc-65a5ef699302))
-    (pin "2" (uuid 1743dfbf-c3b3-4779-a9ef-3ccf576abf4f))
-    (pin "20" (uuid 64e6f5a9-676b-49f7-9cc5-489cbf15dadb))
-    (pin "21" (uuid 23f6216f-39bc-47bb-9d36-82234e3c6917))
-    (pin "22" (uuid a8d8b386-0a70-428c-87a8-1ba52e344e68))
-    (pin "23" (uuid 4df76b43-f310-4a97-883a-9b4e36fea580))
-    (pin "24" (uuid 13d02809-8d23-462e-badd-ed10f204e6a8))
-    (pin "25" (uuid bebf5cf9-8fb7-4d47-bb64-e6ff770e5bb7))
-    (pin "26" (uuid 81cd56d1-0cde-4fd2-854a-ca5a9d0a890f))
-    (pin "27" (uuid fbb1c4f0-43a6-4498-9dcf-586daaad4074))
-    (pin "28" (uuid 00209e69-98b6-4d55-a88b-642655f90a57))
-    (pin "29" (uuid 7e127ebf-0fb0-4c73-96ea-cf640efd3a5e))
-    (pin "3" (uuid 6a59d868-d50a-427a-9983-db0f6487a2b0))
-    (pin "4" (uuid c14d7588-4fc2-4850-9b86-06384ca0aaa9))
-    (pin "5" (uuid 164dbd30-5e49-4646-b6ee-554670347d64))
-    (pin "6" (uuid e344795a-ceef-4918-abc3-0281fd49f342))
-    (pin "7" (uuid c5ddba54-e19c-483a-a645-961a1a1bff40))
-    (pin "8" (uuid cee5bf86-e8bb-44eb-9f83-42c2db99cefe))
-    (pin "9" (uuid 8f108267-ae4b-47a1-b30f-9aab74c2575e))
+    (pin "1" (uuid a211b9a4-142b-4a60-9134-30cbe15e7251))
+    (pin "10" (uuid 828d4b98-d364-433a-afb2-fac49d049606))
+    (pin "11" (uuid 83752c8e-016c-495c-8c66-091945b51cac))
+    (pin "12" (uuid cacc819f-4c3a-4d77-984d-b1a2ffc3d5f2))
+    (pin "13" (uuid 2e5faf65-58e2-436e-b66a-b47264edd713))
+    (pin "14" (uuid baca2924-e57e-4755-92f9-75e59cc5f616))
+    (pin "15" (uuid 6ee4461a-9a56-484e-9d20-8b611b8bfeb2))
+    (pin "16" (uuid cd0489e6-52ba-4136-8910-50dd9476eead))
+    (pin "17" (uuid d2ef55dd-62dc-4425-8ba9-a5ff561dc006))
+    (pin "18" (uuid a2d807aa-dc77-49a5-8ac2-436b41c58879))
+    (pin "19" (uuid 7eb70291-41e2-4edc-96dd-25a69822685f))
+    (pin "2" (uuid 389b7245-02f1-4037-980f-7bf5e5beb3d2))
+    (pin "20" (uuid bf3a7ff3-7184-41a7-a93c-6818dd54853c))
+    (pin "21" (uuid 459844f4-8a33-4fd2-895f-731a4c057b55))
+    (pin "22" (uuid bcf96eae-c1e6-45fc-a593-5bebc75beb9e))
+    (pin "23" (uuid 4c1124b9-ff50-480f-997c-8fe064cbafea))
+    (pin "24" (uuid ebbf83c7-8716-4cc4-accd-c3bae940fff9))
+    (pin "25" (uuid b8e6c654-c3e6-4092-a852-4d27c03ce1e4))
+    (pin "26" (uuid 984f6ac6-7371-4cde-83fb-835937005fb7))
+    (pin "27" (uuid 05a1f922-f91a-42c8-8c0f-7d83a67b7c78))
+    (pin "28" (uuid 5c5799a9-6065-4a5c-b924-539b00ac0c91))
+    (pin "29" (uuid 55d02a50-70c2-4017-a027-6ad16eacceba))
+    (pin "3" (uuid d2a82c1b-6e3a-4626-9291-741bf8ddb7ba))
+    (pin "4" (uuid 10415591-c111-47c3-9c7d-82b7d6edb804))
+    (pin "5" (uuid a79fdf15-7d5d-422a-a984-2bc33ebe9ae8))
+    (pin "6" (uuid 8f666722-da8f-43fe-92ff-fd2bc3767833))
+    (pin "7" (uuid 6c682dd0-08f0-46d8-b852-f56d6dced3b3))
+    (pin "8" (uuid 9c73c6a3-82f1-40e2-9249-056e857eb09f))
+    (pin "9" (uuid e63a705f-c2e3-4f7a-8bed-49e25612787a))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -841,8 +841,8 @@
     (property "LCSC" "C14663" (at 33.02 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02bf86f1-1d6d-4f73-88c4-0fd37434f440))
-    (pin "2" (uuid abae16ce-bba7-4061-b61f-cccc95b35cd5))
+    (pin "1" (uuid f76f76b7-e0d5-450d-ae6a-62953c914aa6))
+    (pin "2" (uuid 5a3a1584-d789-4a12-adc4-de3345ca9335))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -877,7 +877,7 @@
     (property "Datasheet" "~" (at 68.58 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e6d85796-5bc3-4a65-bcdf-9d94e2147d67))
+    (pin "1" (uuid f2a95f40-102f-4257-9be5-4877a1c9a615))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -912,7 +912,7 @@
     (property "Datasheet" "" (at 66.04 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6f45582a-3be7-47ad-bb29-600dac9b52f7))
+    (pin "1" (uuid d6b99e01-6097-464f-a6dd-f6a333c58485))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -950,8 +950,8 @@
     (property "LCSC" "C25804" (at 132.08 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aa829cd1-04d4-47ad-bbe2-4e94602f68ce))
-    (pin "2" (uuid 9d16bc62-6b75-4792-948c-25578624a97e))
+    (pin "1" (uuid 44ac8ad2-c836-4a61-84b0-175eb13f39c0))
+    (pin "2" (uuid 081c00a4-157b-4df8-a50c-d77f999d310f))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -981,7 +981,7 @@
     (property "Datasheet" "" (at 33.02 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac57a3ff-63cc-48e0-a904-efad3d2154e1))
+    (pin "1" (uuid 25bfa569-09cb-4966-8603-7d226d406c2f))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -1019,8 +1019,8 @@
     (property "LCSC" "C14663" (at 21.59 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 164d0e1f-a1be-4665-aa4d-2053123af67b))
-    (pin "2" (uuid fbdff24e-87df-497a-9371-c3928917f0ec))
+    (pin "1" (uuid b45ebe47-32d9-4c7e-abc2-19c04f7fce3b))
+    (pin "2" (uuid c8337962-eae8-436d-9a5e-3b8f304e8131))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -1055,7 +1055,7 @@
     (property "Datasheet" "" (at 21.59 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 147e0bc4-08a3-4491-834d-138996d6e307))
+    (pin "1" (uuid 8e5e0f3e-e11c-4cfa-b780-962354b9ad77))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -1093,12 +1093,12 @@
     (property "LCSC" " C83572" (at 143.51 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2d215c8d-6393-4ef6-9d5d-bd1ec74298ac))
-    (pin "2" (uuid 2bea6894-7f47-4b24-b796-8a574195c383))
-    (pin "6" (uuid 1ecf0ec5-35ab-4d6f-a7c2-d8160750f8fc))
-    (pin "3" (uuid 7b816a2c-a970-455e-916b-965d78f0aebe))
-    (pin "4" (uuid 40f3a7b8-4bef-4d29-843d-40bfaf355f9e))
-    (pin "5" (uuid 738e7dad-8d75-4dbb-b607-32d596a8e883))
+    (pin "1" (uuid 738cc52a-4d12-4881-92ab-6351604433f6))
+    (pin "2" (uuid 1b8eb017-e341-4795-b8cd-143e327d92a2))
+    (pin "6" (uuid 124921df-e87d-4267-be63-6d697aa8f28d))
+    (pin "3" (uuid 47b4c3bf-32cf-4237-be48-9a5b08a03809))
+    (pin "4" (uuid ca1be84a-1389-4e30-b76b-d1890310b1cb))
+    (pin "5" (uuid 98dec98f-afc0-4758-97b2-3ca102859fa2))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -1123,7 +1123,7 @@
     (property "Datasheet" "" (at 93.98 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5492aa67-1c66-4f72-ae9d-269387537e51))
+    (pin "1" (uuid 28efca5e-77f8-4703-8f1e-7696e4746585))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -1161,12 +1161,12 @@
     (property "LCSC" " C83572" (at 143.51 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 81b22cd8-0d61-4442-b58b-3dc3ac5721aa))
-    (pin "2" (uuid 00652ac1-b3cc-4a79-a132-90b6cfbf80bf))
-    (pin "6" (uuid 1db795a8-6845-4166-b5db-0e37abd1a63e))
-    (pin "3" (uuid 9c7de311-33d5-4db8-83ee-c96210b9208c))
-    (pin "4" (uuid fd99923c-eabb-4b90-8ea8-7484d43f1fdb))
-    (pin "5" (uuid 43350602-c2c5-4282-8338-2ab6b5df5cf0))
+    (pin "1" (uuid a1369003-6bf9-40c1-abe0-1a342421d9ee))
+    (pin "2" (uuid b52179f1-3df6-46ca-9607-c1bc8c57e4f9))
+    (pin "6" (uuid 74589116-570e-454a-963b-746fa7e867d1))
+    (pin "3" (uuid 4eefe918-08b0-4a7b-8077-c901106fd308))
+    (pin "4" (uuid d75037db-6451-40ce-abe1-0cf6d4550a28))
+    (pin "5" (uuid aca62292-1213-4d67-8692-672c4c1dde89))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
@@ -1194,8 +1194,8 @@
     (property "LCSC" "C14663" (at 93.98 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5a7173e5-b60e-4c18-8fce-a0bf64fb3ef4))
-    (pin "2" (uuid eace12db-030c-4ecf-a465-588a27d65ea7))
+    (pin "1" (uuid 0925e2d2-4da2-4caf-b916-3413b5c66c37))
+    (pin "2" (uuid 98878b91-88db-4541-bcdb-b1a0ea214780))
     (instances
       (project "wled-esp32-control-board"
         (path "/39949f26-7b4e-4f4c-975a-4ef261468b2a/2312001f-2bc1-4669-95ae-0d17fb630b38"
