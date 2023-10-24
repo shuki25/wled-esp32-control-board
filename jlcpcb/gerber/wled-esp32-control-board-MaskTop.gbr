@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.6-0*%
-%TF.CreationDate,2023-08-21T23:56:37-04:00*%
+%TF.CreationDate,2023-10-23T20:39:10-04:00*%
 %TF.ProjectId,wled-esp32-control-board,776c6564-2d65-4737-9033-322d636f6e74,B*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.6-0) date 2023-08-21 23:56:37*
+G04 Created by KiCad (PCBNEW 7.0.6-0) date 2023-10-23 20:39:10*
 %MOMM*%
 %LPD*%
 G01*
@@ -205,8 +205,8 @@ X158623000Y-79756000D03*
 %TD*%
 D31*
 %TO.C,R108*%
-X151384000Y-92139000D03*
-X151384000Y-93789000D03*
+X151257000Y-92139000D03*
+X151257000Y-93789000D03*
 %TD*%
 D32*
 %TO.C,R103*%
@@ -220,8 +220,8 @@ X118237000Y-77076000D03*
 %TD*%
 D32*
 %TO.C,R106*%
-X151384000Y-90106000D03*
-X151384000Y-88456000D03*
+X151257000Y-90106000D03*
+X151257000Y-88456000D03*
 %TD*%
 D22*
 %TO.C,C202*%
