@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "WLED Controller Board")
-    (date "2023-10-23")
-    (rev "B")
+    (date "2023-10-29")
+    (rev "C")
     (company "Bulter Electronics")
   )
 
