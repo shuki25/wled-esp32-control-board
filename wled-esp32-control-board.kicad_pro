@@ -155,7 +155,7 @@
           "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
@@ -476,7 +476,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB Data",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 0, 194)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -487,7 +487,9 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "/LED_PWR": "rgb(194, 194, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
