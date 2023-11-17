@@ -192,7 +192,7 @@
     (property "ki_keywords" "usb universal serial bus type-C USB2.0")
     (path "/06531422-46ec-4b81-b2a2-21a1afed1c45/1f0cb6d4-fcc5-4cbc-897c-3aac937d6c75")
     (attr smd)
-    (fp_text reference "J201" (at 6.319 2.764 -180) (layer "F.SilkS") hide
+    (fp_text reference "J201" (at 6.319 2.764) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d5dbb8d3-d03e-480a-b2b6-24ffa55ec41a)
     )
@@ -272,10 +272,15 @@
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp e0d2c6ee-d5ed-48da-886c-4c7abc40d7f9))
     (pad "S1" thru_hole oval (at 4.325 3.7 270) (size 1.2 2) (drill oval 0.6 1.4) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 6c6eb572-a860-4294-9fc7-df8b77449ee6))
-    (model "${KICAD_USER_DIR}/3dmodels/USB_type_C_smd_12p.stp"
+    (model "${KICAD_USER_DIR}/3dmodels/USB_type_C_smd_12p.stp" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
+    )
+    (model "${KICAD_USER_DIR}/3dmodels/12402012E212A--3DModel-STEP-533217.STEP"
+      (offset (xyz 40 -1.5 1.7))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
