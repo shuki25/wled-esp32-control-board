@@ -1,0 +1,30 @@
+{
+    "layout": {
+        "hbackbone": "3mm",
+        "vbackbone": "3mm",
+        "rows": "3",
+        "cols": "2",
+        "vbonecut": "False"
+    },
+    "tabs": {
+        "type": "none"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "cutcurves": "True"
+    },
+    "framing": {
+        "type": "railstb",
+        "vspace": "0mm"
+    },
+    "tooling": {
+        "type": "3hole",
+        "hoffset": "2mm",
+        "voffset": "2mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "4.5mm",
+        "voffset": "2mm"
+    }
+}
