@@ -60,19 +60,7 @@
           "width": 0.2672
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|104306000|93073000|40d77109-7745-4ff1-ba41-a6bb9618ada6|b0577b7e-602c-4f50-a969-d2a40c746162",
-        "copper_edge_clearance|104306000|93373000|40d77109-7745-4ff1-ba41-a6bb9618ada6|c72ba7e8-af75-4b2b-8159-935b97ae1b19",
-        "copper_edge_clearance|104306000|93573000|40d77109-7745-4ff1-ba41-a6bb9618ada6|1caa0435-cc6f-43cb-8974-4cb6cfdaf33c",
-        "copper_edge_clearance|104306000|93873000|40d77109-7745-4ff1-ba41-a6bb9618ada6|f5df77d3-1a18-4680-94cd-a0ed9795b4c0",
-        "hole_clearance|104306000|87473000|c2ce0696-af7e-48e8-85f8-9447daa252c5|f63b670d-db6b-4f30-a684-9fa528bc08a1",
-        "hole_clearance|104306000|87773000|c2ce0696-af7e-48e8-85f8-9447daa252c5|a6ce0b16-b6f5-4c72-af94-a50d812c0dc2",
-        "hole_clearance|104306000|87973000|c2ce0696-af7e-48e8-85f8-9447daa252c5|70d6f3e8-8a27-44e1-8bfc-573aba143715",
-        "hole_clearance|104306000|93073000|40d77109-7745-4ff1-ba41-a6bb9618ada6|b0577b7e-602c-4f50-a969-d2a40c746162",
-        "hole_clearance|104306000|93373000|40d77109-7745-4ff1-ba41-a6bb9618ada6|c72ba7e8-af75-4b2b-8159-935b97ae1b19",
-        "hole_clearance|104306000|93573000|40d77109-7745-4ff1-ba41-a6bb9618ada6|1caa0435-cc6f-43cb-8974-4cb6cfdaf33c",
-        "hole_clearance|104306000|93873000|40d77109-7745-4ff1-ba41-a6bb9618ada6|f5df77d3-1a18-4680-94cd-a0ed9795b4c0"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
